@@ -1,0 +1,7 @@
+{
+  "databaseURL": "https://Ugwu-s-workspace-mv4vl6.us-east-1.xata.sh/db/pizzarini",
+  "codegen": {
+    "output": "src/xata.js",
+    "moduleType": "esm"
+  }
+}
