@@ -8,7 +8,7 @@ import { BaseClient } from "@xata.io/client";
 export async function getServerSideProps() {
   const xata = new BaseClient({
     branch: "main",
-    apiKey: "xau_KgAbIsJZRGkJiDxmgJTuoROXDIplVPoP1",
+    apiKey: process.env.API_KEY,
     databaseURL:
       "https://Ugwu-s-workspace-mv4vl6.us-east-1.xata.sh/db/pizzarini",
   });
